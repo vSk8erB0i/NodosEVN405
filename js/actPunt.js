@@ -24,3 +24,8 @@ function elim() {
     lista.removeChild(lista.lastElementChild);
 }
 
+function reemplazarEmail() {
+    var nuevoEmail = document.getElementById('emailUsuario').value;
+    var footer = document.getElementById('pie');
+    footer.textContent = nuevoEmail;
+}
